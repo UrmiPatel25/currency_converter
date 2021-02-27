@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+*{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:22px;
+    font-weight: bolder;
+   
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  width: 450px;
+  height: 60px;
+ background:#dde2ee ;
+ color: #000000;
+  border-radius: 8%;
+  box-shadow: 0 0 7px 7px #18213a;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3{
+  width: 300px;
+  height: 50px;
+  background: #dde2ee;
+  color: #000000;
+  border-radius: 5%;
+  box-shadow: 0 0 7px 7px #18213a;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.card{
+  margin-top: 2rem;
+  border-radius: 5%;
+  height: 25rem;
+  cursor: pointer;
+  transition-duration: 0.7s;
+  background-image: url("./b4.jpg");
+  
+}
+.card:hover{
+   -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition-duration: 0.7s;
+  box-shadow: 0 0 12px 12px #034e8b ;  
+  opacity: 2em;
+}
+.body{
+  height:200vh;
+  background-image: url('./bg1.jpg');
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  opacity: 2;
 }
-
-.App-link {
-  color: #61dafb;
+select{
+  margin:30px 10px;
+  width: 80px;
+  height: 40px;
+  border: 1px solid #dde2ee;
+  background: transparent;
+  border-radius: 5px;
+  color: #ffffff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  width: 300px;
+  height: 40px;
+  border: 1px solid #dde2ee;
+  background: transparent;
+  border-radius: 5px;
+   color: #ffffff;
+}
+button{
+  margin-top:10px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid #dde2ee;
+  align-items: center;
+  background: transparent;
+  transition-duration: 0.5s; 
+}
+button:hover{
+  border-radius:5%;
+  background-color: #dde2ee;
+  color: black;
+ 
+}
+label{
+padding: 5px 10px;
+color: #ffffff;
 }
